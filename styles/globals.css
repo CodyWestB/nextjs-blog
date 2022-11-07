@@ -34,4 +34,5 @@ code {
 
 .landingImage {
     z-index: -1;
+    position: fixed!important;
 }

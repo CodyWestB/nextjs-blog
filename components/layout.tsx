@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Cody Berndt';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Cody Berndt';
 
 export default function Layout({ children, home }) {
   return (
@@ -32,8 +32,8 @@ export default function Layout({ children, home }) {
               priority
               src="/images/profile_pic.jpeg"
               className={styles.profilePicture}
-              height={200}
-              width={200}
+              height={150}
+              width={150}
               alt=""
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -45,8 +45,8 @@ export default function Layout({ children, home }) {
                 priority
                 src="/images/profile_pic.jpeg"
                 className={styles.profilePicture}
-                height={150}
-                width={150}
+                height={120}
+                width={120}
                 alt=""
               />
             </Link>

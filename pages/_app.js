@@ -5,11 +5,11 @@ const App = ({ Component, pageProps }) => {
     return (
         <>
             <Image
-                className='landingImage'
                 src="/images/backgroundImage.jpeg"
+                alt="Stary distorted starview"
                 layout='fill'
                 objectFit='cover'
-                objectPosition='center'
+                className='landingImage'
             />
             <Component {...pageProps} />
         </>
