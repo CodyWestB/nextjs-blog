@@ -10,20 +10,22 @@ const Custom404 = () => {
             <Head>
                 <title>404</title>
             </Head>
-            <Link className={styles.removeLinkStyling} href={`/`}>
-            <div className={`${styles.container} ${styles.main}`}>
-                <h1 className={styles.pageNotFound}>404 Page Not Found</h1>
-                <h1 className={styles.pageNotFound}>Sleep...</h1>
-                <div className='landingImageContainer'>
-                    <Image
-                        src="/images/404_sandman.jpeg"
-                        alt="You have strayed into the Dreamscape."
-                        layout="fill"
-                        objectFit='cover'
-                        className='landingImage'
-                    />
-                </div>
+
+            <div className='landingImageContainer'>
+                <Image
+                    src="/images/404_sandman.jpeg"
+                    alt="You have strayed into the Dreamscape."
+                    layout="fill"
+                    objectFit='cover'
+                    className='landingImage'
+                />
             </div>
+
+            <Link className={styles.removeLinkStyling} href={`/`}>
+                <div className={`${styles.container} ${styles.main}`}>
+                    <h1 className={styles.pageNotFound}>404 Page Not Found</h1>
+                    <h1 className={styles.pageNotFound}>Sleep...</h1>
+                </div>
             </Link>
         </>
     );
