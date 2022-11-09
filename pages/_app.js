@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import Image from 'next/image'
+// import 'tailwindcss'
 
 const App = ({ Component, pageProps }) => {
     return (
@@ -12,6 +13,7 @@ const App = ({ Component, pageProps }) => {
                     objectFit='cover'
                     className='landingImage'
                 />
+                <div className='darkness'></div>
             </div>
             <Component {...pageProps} />
         </>

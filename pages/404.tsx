@@ -19,6 +19,7 @@ const Custom404 = () => {
                     objectFit='cover'
                     className='landingImage'
                 />
+                <div className='darkness'></div>
             </div>
 
             <Link className={styles.removeLinkStyling} href={`/`}>
