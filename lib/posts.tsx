@@ -43,12 +43,18 @@ import html from 'remark-html'
 //   return <div>hello {data.name}!</div>;
 // }
 
+type PostData = {
+  id: string;
+  title: string;
+  date: string;
+}
+
 const postsDirectory = path.join(process.cwd(), 'posts');
 
 const getSortedPostsData = () => {
   // Get file names under /posts
   const fileNames = fs.readdirSync(postsDirectory);
-  const allPostsData = fileNames.map((fileName) => {
+  const allPostsData: any = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, '');
 

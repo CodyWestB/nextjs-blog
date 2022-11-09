@@ -7,7 +7,7 @@ import Link from 'next/link';
 const name = 'Cody Berndt';
 export const siteTitle = 'Cody Berndt';
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home }: { children: any, home?: boolean }) {
   return (
     <div className={styles.container}>
       <Head>
