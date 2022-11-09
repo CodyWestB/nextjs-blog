@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import Link from 'next/link'
 import Date from '../components/date'
 import getSortedPostsData from '../lib/posts'
 
@@ -27,7 +26,8 @@ const Home = ({ allPostsData }) => {
       <section className={utilStyles.headingMd}>
         <p>{myIntroduction}</p>
       </section>
-      {/* <Link href='/posts/first-post'>First Post Page</Link> */}
+
+      {/* <Link href="/" style="z-index=1">Cody!!</Link> */}
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

@@ -32,7 +32,12 @@ code {
   background-color: black;
 }
 
+.landingImageContainer {
+  position: relative;
+  width: 100%;
+}
+
 .landingImage {
-    z-index: -1;
+    z-index: -100;
     position: fixed!important;
 }

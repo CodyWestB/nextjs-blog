@@ -14,14 +14,15 @@ const Custom404 = () => {
             <div className={`${styles.container} ${styles.main}`}>
                 <h1 className={styles.pageNotFound}>404 Page Not Found</h1>
                 <h1 className={styles.pageNotFound}>Sleep...</h1>
-
-                <Image
-                    src="/images/404_sandman.jpeg"
-                    alt="You have strayed into the Dreamscape."
-                    layout="fill"
-                    objectFit='cover'
-                    className='landingImage'
-                />
+                <div className='landingImageContainer'>
+                    <Image
+                        src="/images/404_sandman.jpeg"
+                        alt="You have strayed into the Dreamscape."
+                        layout="fill"
+                        objectFit='cover'
+                        className='landingImage'
+                    />
+                </div>
             </div>
             </Link>
         </>
