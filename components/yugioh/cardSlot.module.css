@@ -1,0 +1,12 @@
+.card_outer_box {
+    border: 5px solid rgba(255, 0, 0, 0);
+    border-radius: 5px;
+    user-select: none;
+}
+.card_box {
+    background-color: white;
+    border: 3px solid #cccccc;
+    border-radius: 5px;
+    opacity: 0.5;
+    flex: 1;
+}

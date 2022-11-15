@@ -1,0 +1,16 @@
+.flexGridCards {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    width: 67vw;
+    height: 12vw;
+}
+.flexGridCards .col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.margins {
+    margin: 10vw 10vw 10vw 10vw;
+}
